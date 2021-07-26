@@ -1,10 +1,12 @@
 import { createGlobalStyle } from "styled-components";
+import bbImg from '../../images/darkimg.jpg'
 
 const GlobalStyle = createGlobalStyle`
     body{
-        color: #332c36;
+        color: white;
         padding: 0;
         margin: 0;
+        background-image: url(${bbImg});
 
     }
  

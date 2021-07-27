@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         margin: 0;
         background-image: url(${bbImg});
-
+        background-size: cover;
     }
  
 `;

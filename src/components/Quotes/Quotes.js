@@ -7,7 +7,7 @@ const Quotes = ({ quote, speaker, onUpdate })=> {
         <Wrapper>
         <Quote>{quote}</Quote>
         <Speaker>- {speaker}</Speaker>
-        <Button onclick={onUpdate}>Click</Button>
+        <Button onClick={onUpdate}> Click</Button>
         </Wrapper>
     );
 };
@@ -18,7 +18,6 @@ Quotes.propTypes = {
     onUpdate: func
 };
 
-export default Quotes;
 
 // Styled components
 
@@ -41,3 +40,7 @@ const Speaker = styled(Quote)`
     margin-bottom: 50px;
 
 `;
+
+
+
+export default Quotes;
